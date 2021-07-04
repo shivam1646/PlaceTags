@@ -17,7 +17,7 @@ import { WebSocketLink } from "apollo-link-ws";
 import { InMemoryCache } from "apollo-cache-inmemory";
 
 const wsLink = new WebSocketLink({
-  uri: "wss://placetags-v1.herokuapp.com//graphql",
+  uri: "wss://placetags-v1.herokuapp.com/graphql",
   options: {
     reconnect: true
   }
